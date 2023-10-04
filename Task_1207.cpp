@@ -1,4 +1,12 @@
+#include <map>
+#include <unordered_set>
+#include <vector>
+#include <iostream>
+
+using namespace std;
+
 int speedup = [] {ios::sync_with_stdio(0); cin.tie(0); return 0; } ();
+
 class Solution {
 public:
 	bool uniqueOccurrences(vector<int>& arr) {
